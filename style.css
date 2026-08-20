@@ -16,6 +16,7 @@ body {
     justify-content: space-between;
 }
 
+
 .footer {
 
 }
@@ -41,4 +42,9 @@ a {
 
 li a {
     color: gray;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
 }
