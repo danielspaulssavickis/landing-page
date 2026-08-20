@@ -40,6 +40,20 @@ body {
 
 }
 
+.herosecondary {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.smallbox {
+    border: 3px solid #3882F6;
+    border-radius: 8px;
+    width: 100px;
+    height: 100px;
+    margin: 16px;
+}
+
 .card {
     display: flex;
     flex-flow: column;
@@ -47,6 +61,10 @@ body {
     gap: 8px;
 }
 
+.album {
+    display: flex;
+
+}
 
 .content {
     flex-grow: 1;
@@ -55,6 +73,12 @@ body {
 .title {
     font-size: 48px;
     color: #F9FAF8;
+    font-weight: 900;
+}
+
+.secondarytitle {
+    color: #1F2937;
+    font-size: 36px;
     font-weight: 900;
 }
 
