@@ -7,8 +7,13 @@ body {
     flex: 1;
 }
 
-.header, .footer, .content {
+.header, .footer, .hero {
     background-color: #1F2937;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
 }
 
 .footer {
@@ -16,5 +21,24 @@ body {
 }
 
 .content {
+    flex-grow: 1;
+}
 
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+li a {
+    color: gray;
 }
